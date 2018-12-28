@@ -5,6 +5,7 @@ https://medium.com/@olegsmetanin/vim-recipes-ac65f75f26bf
 https://www.cs.oberlin.edu/~kuperman/help/vim/indenting.html
 
 ## Todo
+https://github.com/amix/vimrc
 
 gg: goto top
 G: goto bottom
