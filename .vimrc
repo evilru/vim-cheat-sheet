@@ -57,8 +57,27 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'scrooloose/nerdcommenter'
 " Incremental expand selection
 Plugin 'terryma/vim-expand-region'
-" Golang
-Plugin 'Shougo/vimproc.vim'
+" Surround
+Plugin 'tpope/vim-surround'
+" Tools
+Plugin 'mattn/emmet-vim'
+Plugin 'ap/vim-css-color'
+Plugin 'Align'
+Plugin 'terryma/vim-multiple-cursors'
+" Syntax Files
+"Plugin 'pangloss/vim-javascript'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'elzr/vim-json'
+Plugin 'othree/html5.vim'
+Plugin 'klen/python-mode'
+Plugin 'posva/vim-vue'
+" Auto Session handling
+Plugin 'thaerkh/vim-workspace'
+" Undo visualisation
+Plugin 'mbbill/undotree'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
