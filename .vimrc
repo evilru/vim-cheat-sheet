@@ -22,7 +22,7 @@ Plugin 'vim-airline/vim-airline-themes'
 " DevIcons
 Plugin 'ryanoasis/vim-devicons'
 " NerdTree file explorer
-Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " Fixes NerdTree while tabs are used
 Plugin 'jistr/vim-nerdtree-tabs'
 " NerdTree Git Plugin
@@ -40,11 +40,15 @@ Plugin 'sheerun/vim-polyglot'
 " Asynchronous Code Linting
 Plugin 'w0rp/ale'
 " Deoplete: code completion tool
-Plugin 'Shougo/deoplete.nvim'
-Plugin 'roxma/nvim-yarp'
-Plugin 'roxma/vim-hug-neovim-rpc'
+if has('nvim')
+    Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plugin 'Shougo/deoplete.nvim'
+  Plugin 'roxma/nvim-yarp'
+  Plugin 'roxma/vim-hug-neovim-rpc'
+endif
 " Use TAB for code completion
-Plugin 'ervandew/supertab'
+"Plugin 'ervandew/supertab'
 " Autoformat code
 Plugin 'Chiel92/vim-autoformat'
 " Dirvish: directory navigation
@@ -58,9 +62,9 @@ Plugin 'christoomey/vim-tmux-navigator'
 " NerdCommenter
 Plugin 'scrooloose/nerdcommenter'
 " Incremental expand selection
-Plugin 'terryma/vim-expand-region'
+"Plugin 'terryma/vim-expand-region'
 " Surround
-Plugin 'tpope/vim-surround'
+"Plugin 'tpope/vim-surround'
 " Tools
 Plugin 'mattn/emmet-vim'
 Plugin 'ap/vim-css-color'
@@ -73,14 +77,14 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'elzr/vim-json'
 Plugin 'othree/html5.vim'
-Plugin 'klen/python-mode'
-Plugin 'posva/vim-vue'
+"Plugin 'klen/python-mode'
+"Plugin 'posva/vim-vue'
 " Auto Session handling
 Plugin 'thaerkh/vim-workspace'
 " Undo visualisation
-Plugin 'mbbill/undotree'
+"Plugin 'mbbill/undotree'
 " Yank history
-Plugin 'YankRing.vim'
+"Plugin 'YankRing.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
