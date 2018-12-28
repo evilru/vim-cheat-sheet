@@ -23,10 +23,10 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ryanoasis/vim-devicons'
 " NerdTree file explorer
 Plugin 'scrooloose/nerdtree'
+" Fixes NerdTree while tabs are used
+Plugin 'jistr/vim-nerdtree-tabs'
 " NerdTree Git Plugin
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-# Fixes nerdtree for tabs
-Plugin 'jistr/vim-nerdtree-tabs'
 " CtrlP file, buffer, tag search
 Plugin 'ctrlpvim/ctrlp.vim'
 " Fuzzy file search
