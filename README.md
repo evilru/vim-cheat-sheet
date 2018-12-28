@@ -1,4 +1,5 @@
 # vim-cheat-sheet
+
 just my vim cheat sheet  
 https://vimawesome.com/  
 http://www.vim-bootstrap.com. 
@@ -6,6 +7,7 @@ https://medium.com/@olegsmetanin/vim-recipes-ac65f75f26bf
 https://www.cs.oberlin.edu/~kuperman/help/vim/indenting.html
 
 ## Todo
+
 https://github.com/amix/vimrc
 
 gg: goto top
@@ -23,8 +25,6 @@ move line down
 multiple cursors
 whitespace
 
-
-
 ## Open
 
 * :e <filename>
@@ -36,7 +36,6 @@ whitespace
 
 open multiple: vim -p file1 file2
 
-
 * newtab: :tabe(dit) <filename>
 * listall: :tabs
 * Next tab: gt
@@ -44,7 +43,6 @@ open multiple: vim -p file1 file2
 * Numbered tab: nnngt
 * close: :tabclose
 * close but current: :tabo(nly)
-
 
 ## Split Views
 
@@ -59,7 +57,6 @@ open multiple: vim -o file1 file2
 
 ## Buffers
 
-
 open into buffers :n <filename> <filename>
 
 * list all: :ls
@@ -69,12 +66,10 @@ open into buffers :n <filename> <filename>
 * :bp            # Go to previous file.
 * :bw            # Close file.
 
-
 ## Commands
 
 * quit, close all files, not saving: :qa
 * quit, close all fines and save: :qwa
-
 
 ## Comments
 
@@ -82,9 +77,8 @@ Ctrl+v: block selection
 x: deletes
 Shift+i: # esc adds
 
-
-
 # Plugins
+
 https://github.com/morhetz/gruvbox  
 https://github.com/rafi/awesome-vim-colorschemes
 
