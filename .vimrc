@@ -212,5 +212,7 @@ set cursorline
 set showmatch
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
+" Use python3
+let g:pymode_python = 'python3'
 " Close buffer with C-w
 nnoremap <silent><C-w> :bw<CR>
