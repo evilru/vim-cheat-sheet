@@ -2,7 +2,7 @@
 
 just my vim cheat sheet  
 https://vimawesome.com/  
-http://www.vim-bootstrap.com. 
+http://www.vim-bootstrap.com  
 https://medium.com/@olegsmetanin/vim-recipes-ac65f75f26bf
 https://www.cs.oberlin.edu/~kuperman/help/vim/indenting.html
 
