@@ -77,6 +77,8 @@ Plugin 'posva/vim-vue'
 Plugin 'thaerkh/vim-workspace'
 " Undo visualisation
 Plugin 'mbbill/undotree'
+" Yank history
+Plugin 'YankRing.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
