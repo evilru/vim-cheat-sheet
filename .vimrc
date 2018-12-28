@@ -25,6 +25,8 @@ Plugin 'ryanoasis/vim-devicons'
 Plugin 'scrooloose/nerdtree'
 " NerdTree Git Plugin
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+# Fixes nerdtree for tabs
+Plugin 'jistr/vim-nerdtree-tabs'
 " CtrlP file, buffer, tag search
 Plugin 'ctrlpvim/ctrlp.vim'
 " Fuzzy file search
@@ -52,7 +54,7 @@ Plugin 'yggdroot/indentline'
 " EasyMotion: effective movements
 Plugin 'easymotion/vim-easymotion'
 " Jump between splits with Ctrl
-"Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'christoomey/vim-tmux-navigator'
 " NerdCommenter
 Plugin 'scrooloose/nerdcommenter'
 " Incremental expand selection
