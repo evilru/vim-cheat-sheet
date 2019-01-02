@@ -10,19 +10,19 @@ https://www.cs.oberlin.edu/~kuperman/help/vim/indenting.html
 
 https://github.com/amix/vimrc
 
-gg: goto top
+gg: goto top  
 G: goto bottom
 
-u: undo
+u: undo  
 Ctrl+r: redo
 
-search
+search  
 deselect
 
-duplicate line
-move line up
-move line down
-multiple cursors
+duplicate line  
+move line up  
+move line down  
+multiple cursors  
 whitespace
 
 ## Open
