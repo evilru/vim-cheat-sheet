@@ -7,7 +7,9 @@ https://medium.com/@olegsmetanin/vim-recipes-ac65f75f26bf
 https://www.cs.oberlin.edu/~kuperman/help/vim/indenting.html
 
 ## Tools
-https://github.com/mintty/wsltty
+
+Debian for Windows  
+https://github.com/mintty/wsltty  
 https://nerdfonts.com/ (SourceCodePro)
 
 ## Todo
