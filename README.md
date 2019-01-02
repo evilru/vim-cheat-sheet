@@ -1,6 +1,7 @@
 # vim-cheat-sheet
 
 just my vim cheat sheet  
+
 https://vimawesome.com/  
 http://www.vim-bootstrap.com  
 https://medium.com/@olegsmetanin/vim-recipes-ac65f75f26bf
@@ -16,9 +17,6 @@ https://nerdfonts.com/ (SourceCodePro)
 
 https://github.com/amix/vimrc
 
-gg: goto top  
-G: goto bottom
-
 u: undo  
 Ctrl+r: redo
 
@@ -30,6 +28,59 @@ move line up
 move line down  
 multiple cursors  
 whitespace
+
+## Navigation
+
+h = left  
+j = down  
+k = up  
+l = right
+
+0 = start of line  
+$ = end of line
+
+gg = top of document  
+G = buttom of document
+
+123gg = go to line 123
+
+
+TODO: modifiers
+
+w = start of next word  
+W = ?  
+b = start of previous word  
+e = end of word  
+
+a = append?  
+A = append?  
+R = replace  
+
+o = open line below  
+O = open line above
+
+:s/searchterm  
+:s/searchterm/replaceterm  
+:s/searchterm/replaceterm/ig i = nocase, g = all  ?
+
+with searchresults:  
+N = next result ?
+n = previous result ?
+
+## Copy / Paste / Delete
+
+x = delete current char
+
+y = copy word?
+yy = copy line
+
+pp = paste line
+
+dd = delete line?
+
+d$ = delete from cursor until end of line?
+
+
 
 ## Open
 
@@ -79,8 +130,8 @@ open into buffers :n <filename> <filename>
 
 ## Comments
 
-Ctrl+v: block selection
-x: deletes
+Ctrl+v: block selection  
+x: deletes  
 Shift+i: # esc adds
 
 # Plugins
