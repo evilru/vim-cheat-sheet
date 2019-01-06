@@ -2,6 +2,8 @@
 
 just my vim cheat sheet  
 
+https://dotfiles.github.io/
+
 https://vimawesome.com/  
 http://www.vim-bootstrap.com  
 https://medium.com/@olegsmetanin/vim-recipes-ac65f75f26bf
@@ -153,3 +155,5 @@ https://github.com/justinmk/vim-dirvish
 https://github.com/ctrlpvim/ctrlp.vim  
 https://github.com/ryanoasis/vim-devicons  
 http://majutsushi.github.io/tagbar
+
+https://github.com/neoclide/coc.nvim
