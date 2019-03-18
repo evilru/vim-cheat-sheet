@@ -9,6 +9,8 @@ http://www.vim-bootstrap.com
 https://medium.com/@olegsmetanin/vim-recipes-ac65f75f26bf
 https://www.cs.oberlin.edu/~kuperman/help/vim/indenting.html
 
+https://sanctum.geek.nz/arabesque/vim-anti-patterns/
+
 ## Tools
 
 Debian for Windows  
