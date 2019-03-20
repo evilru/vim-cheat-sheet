@@ -11,6 +11,8 @@ https://www.cs.oberlin.edu/~kuperman/help/vim/indenting.html
 
 https://sanctum.geek.nz/arabesque/vim-anti-patterns/
 
+https://vim-adventures.com/
+
 ## Tools
 
 Debian for Windows  
